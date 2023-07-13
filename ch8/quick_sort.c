@@ -1,11 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
-
-void swap(int* a, int *b) {
-    int tmp = *a;
-    *a = *b;
-    *b = tmp;
-}
 
 void printa(int A[], int len) {
 	for (int i = 0; i < len; ++i) {
