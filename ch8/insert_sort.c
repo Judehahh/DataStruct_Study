@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void printa(int A[], int len) {
-	for (int i = 0; i < 10; ++i) {
+	for (int i = 0; i < len; ++i) {
 		printf("%d ", A[i]);
 	} 
     printf ("\n");
