@@ -55,8 +55,9 @@ int main() {
     printa(tmp, 10);
 
     int k;
-    for (k = 1; k <= 10; ++k)
+    for (k = 1; k <= 10; ++k) {
         printf("the %d th min in array is: %d\n", k, find_min(array, 0, 9, k));
+    }
 
 	return 0;
 }
